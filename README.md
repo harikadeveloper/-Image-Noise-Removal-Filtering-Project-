@@ -1,4 +1,4 @@
-# 🧹 Image Noise Removal using Filters
+# 🌄 Image Noise Removal using Filters
 
 ## 📝 Project Overview
 This project demonstrates how to remove noise from images using image processing techniques in Python with OpenCV.
@@ -17,12 +17,7 @@ To denoise a noisy image using:
 - Jupyter Notebook
 
 ## 📂 Dataset
-A noisy image is manually added for testing. You can replace it with your own image inside the `project/` folder.
-
-## 📸 Output Comparisons
-| Original Image | Gaussian Blur | Median Filter | Bilateral Filter |
-|----------------|----------------|----------------|------------------|
-| *(Upload image)* | *(Upload image)* | *(Upload image)* | *(Upload image)* |
+A noisy image is manually added for testing. You can replace it with your own image inside folder.
 
 ## 🔍 Filter Descriptions
 **Gaussian Blur**  
@@ -57,6 +52,4 @@ Preserves edges while reducing noise, making it suitable for detailed image task
 - Surveillance and security
 - Photography apps
 
-## 📫 Contact
-For questions or feedback, please reach out on [LinkedIn](#) or open an issue.
 
