@@ -1,64 +1,62 @@
-🖼️ Image Noise Removal using Filters
-This project demonstrates how to remove noise from images using traditional image filtering techniques in Python. Various filters such as Gaussian Blur, Median Filter, and Bilateral Filter are applied to denoise an image and visually compare their effectiveness.
+# 🧹 Image Noise Removal using Filters
 
-🔍 Objective
-To understand and implement different image denoising filters and compare how well they remove noise from a given image.
+## 📝 Project Overview
+This project demonstrates how to remove noise from images using image processing techniques in Python with OpenCV.
 
-🛠️ Technologies Used
-Python 🐍
+## 🎯 Objective
+To denoise a noisy image using:
+- Gaussian Blur
+- Median Filter
+- Bilateral Filter
 
-OpenCV (cv2)
+## 🛠️ Technologies Used
+- Python
+- OpenCV (cv2)
+- NumPy
+- Matplotlib (for visualization)
+- Jupyter Notebook
 
-NumPy
+## 📂 Dataset
+A noisy image is manually added for testing. You can replace it with your own image inside the `project/` folder.
 
-Matplotlib (for visualization)
+## 📸 Output Comparisons
+| Original Image | Gaussian Blur | Median Filter | Bilateral Filter |
+|----------------|----------------|----------------|------------------|
+| *(Upload image)* | *(Upload image)* | *(Upload image)* | *(Upload image)* |
 
-Jupyter Notebook
+## 🔍 Filter Descriptions
+**Gaussian Blur**  
+Smooths the image using a Gaussian kernel to reduce noise and detail.
 
-📂 Dataset
-This project uses a manually added noisy image.
-You can download the sample image from this link:
-👉 Download noisy image here
-(or use your own image by placing it in the project directory)
+**Median Filter**  
+Replaces each pixel's value with the median of its neighborhood. Great for removing salt-and-pepper noise.
 
-📈 Results
-Original Image	Gaussian Filter	Median Filter	Bilateral Filter
+**Bilateral Filter**  
+Preserves edges while reducing noise, making it suitable for detailed image tasks like facial image enhancement.
 
-📌 Replace the image links after uploading your outputs/ folder to GitHub.
+## 🚀 How to Run
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/ImageNoiseRemoval
+    cd ImageNoiseRemoval
+    ```
 
-🧪 Filters Overview
-Gaussian Blur: Reduces image noise and detail using a Gaussian function.
+2. Install the required packages:
+    ```bash
+    pip install opencv-python numpy matplotlib
+    ```
 
-Median Filter: Replaces each pixel with the median value of the neighboring pixels; effective against salt-and-pepper noise.
+3. Open the Jupyter Notebook file and run all cells:
+    ```bash
+    jupyter notebook ImageNoiseRemoval.ipynb
+    ```
 
-Bilateral Filter: Removes noise while preserving edges — useful in facial or object-based image smoothing.
+## 💡 Applications
+- Pre-processing in computer vision pipelines
+- Medical imaging
+- Surveillance and security
+- Photography apps
 
-📝 How to Run
-Clone the repository
-
-Install required libraries using:
-
-bash
-Copy
-Edit
-pip install opencv-python numpy matplotlib
-Run the ImageNoiseRemoval.ipynb notebook in Jupyter or VS Code
-
-View results in the outputs/ folder
-
-💡 Use Cases
-Pre-processing step in Computer Vision tasks
-
-Noise reduction in medical imaging
-
-Enhancing image quality in surveillance and remote sensing
-
-📚 Learning Outcome
-By doing this project, you’ll learn:
-
-How various filters work for noise removal
-
-Visual difference in filtered outputs
-
-When to use which filter depending on noise type
+## 📫 Contact
+For questions or feedback, please reach out on [LinkedIn](#) or open an issue.
 
